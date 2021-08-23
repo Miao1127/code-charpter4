@@ -1,0 +1,8 @@
+此包主要作用是计算路径长度,为节省计算时间，有：离线计算各个分区顶点间的最短距离(zone2zone.py)和每个usv各自计算到达各个分区的距离
+(point2zone.py)， 计算各个分区形心间距离zone2zone_v2.py。
+
+
+文件说明：
+zone2zone_distance_mat.csv文件为各个分区顶点间的最短距离；
+zone2zone_distance_mat_v2.csv文件为各个分区形心间的最短距离；
+z2z_u_distance.csv文件在zone2zone_distance_mat.csv的基础上增加了各个usv初始位置到各个分区顶点的最短距离；
